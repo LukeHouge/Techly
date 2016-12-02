@@ -1074,7 +1074,7 @@
 		.\37 u\28small\29, .\37 u\24\28small\29 {
 			width: 58.3333333333%;
 			clear: none;
-480			margin-left: 0;
+			margin-left: 0;
 		}
 
 		.\36 u\28small\29, .\36 u\24\28small\29 {
@@ -2990,7 +2990,8 @@
 			#three .button.special.big span {
 				display: none;
 			}
-
+			
+			
 			#header nav ul li a[href="#menu"]:only-child {
 				width: 6em;
 				text-indent: 6em;
@@ -2998,7 +2999,19 @@
 			}
 
 		}
-		
+		@media screen and (min-width: 480px) {
+			#three .button.special.big span1 {
+				display: none;
+			}
+			#three .button.special.big span2 {
+				display: none;
+			}
+		}
+		@media screen and (max-width: 350px) {
+			#three .button.special.big span1 {
+				display: none;
+			}
+		}
 /* Menu */
 
     #menu .inner h2 {
