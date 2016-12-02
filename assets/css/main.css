@@ -1074,7 +1074,7 @@
 		.\37 u\28small\29, .\37 u\24\28small\29 {
 			width: 58.3333333333%;
 			clear: none;
-			margin-left: 0;
+480			margin-left: 0;
 		}
 
 		.\36 u\28small\29, .\36 u\24\28small\29 {
@@ -2980,6 +2980,14 @@
 		@media screen and (max-width: 480px) {
 
 			#header .logo span {
+				display: none;
+			}
+
+			#banner .button.big.scrolly span {
+				display: none;
+			}
+			
+			#three .button.special.big span {
 				display: none;
 			}
 
