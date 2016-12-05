@@ -3486,6 +3486,7 @@
 				#banner .inner {
 					width: 100%;
 				}
+			
 
 				#banner h1 {
 					font-size: 1.75em;
@@ -3539,6 +3540,13 @@
 
 /* Main */
 
+	@media screen and (min-width: 1200px) {
+			#main > header {
+				height:70vh;
+			}
+	}
+
+
 	#main > header {
 		background-color: #444;
 		color: #ffffff;
@@ -3588,6 +3596,7 @@
 
 		#main > header h2 {
 			font-size: 2em;
+			align-verticle: middle;
 		}
 
 		#main > header p {
