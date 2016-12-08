@@ -2177,6 +2177,7 @@
 
 /* Image */
 
+
 	.image {
 		border-radius: 4px;
 		border: 0;
@@ -2188,15 +2189,27 @@
 			border-radius: 4px;
 			display: block;
 		}
-
-		.image.left, .image.right {
-			max-width: 40%;
+		@media screen and (min-width: 560px) {
+			.image.left, .image.right {
+				max-width: 50%;
+			}
+			.image.left img, .image.right img {
+				width: 100%;
+			}
+		}
+		@media screen and (max-width: 559px) {
+			.image.left, .image.right {
+			max-width: 100%;
 		}
 
 			.image.left img, .image.right img {
 				width: 100%;
-			}
+				}
 
+		}
+
+
+		
 		.image.left {
 			float: left;
 			margin: 0 2.5em 2em 0;
