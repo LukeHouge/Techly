@@ -2977,7 +2977,7 @@
 
 		}
 
-		@media screen and (max-width: 480px) {
+		@media screen and (max-width: 590px) {
 
 			#header .logo span {
 				display: none;
@@ -2999,7 +2999,7 @@
 			}
 
 		}
-		@media screen and (min-width: 480px) {
+		@media screen and (min-width: 590px) {
 			#three .button.special.big span1 {
 				display: none;
 			}
@@ -3011,10 +3011,9 @@
 			#three .button.special.big span1 {
 				display: none;
 			}
-			#three .button.special.big span2 {
-				display: none;
-			}
+
 		}
+		
 /* Menu */
 
     #menu .inner h2 {
