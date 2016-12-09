@@ -14,7 +14,13 @@
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link rel="icon" href="images/logo.ico">
-
+		<style>
+			@media screen and (max-width: 600px) {	
+				#img80 {
+					width: 100%;
+				}
+			}
+		</style>
 	</head>
 	<body>
 
@@ -28,7 +34,7 @@
 							<ul>
 								<li><a href="#menu">Menu</a></li>
 							</ul>
-						</nav>
+						</nav>	
 					</header>
 
 				<!-- Menu -->
@@ -54,8 +60,8 @@
 				</header >
 				<section class="wrapper">
 					<div  class="inner">
-						<h3>Part 1: Liquid Cooling Basics</h3>
-						<img src="images/Computer%20Picture%20%20450.jpg" alt="Computer%20Picture%20%20450" width="100%" height="100%">
+						<hr><h3>Part 1: Liquid Cooling Basics</h3><hr>
+						<center><img id="img80" src="images/Computer%20Picture%20%20450.jpg" alt="Computer%20Picture%20%20450" width="80%" height="100%"></center>
 							<p>This particular build is an incredible example of what can be done, and the stunning visual appeal that can be created. The builder custom made a reservoir to highlight the dual nature his loop with two different colored coolants.
 							<br><br>
 						
@@ -86,28 +92,72 @@
 				</td>
 			</tr>
 		</table>
-		&nbsp; &nbsp;&nbsp;&nbsp; So the biggest advantage to water cooling, in my mind, is the looks. The visual appeal that can be created by water cooling cannot be matched or replicated in any other way, the results are simply stunning if done correctly and adequate effort is applied. The second main advantage is that is you want the absolute best performance you simply need to water cool, and do it with a custom loop. You can honestly get some killer performance from air cooling, it works for over 90% of computers live today. However if you need the absolute most performance, only to be achieved by overclocking, you need to water cool. overclocking for the uninitiated is raising the power input and performance thresholds for your various chips (CPU, GPU, RAM) above their factory defaults. These defaults are set to match the thermal capacity of the product. This is why more expensive graphics cards cost more and are larger, they use larger cooling apparatuses to slow for a higher clock. If you want to take these limits to the extreme you will exceed what you can cool by air and will need to water cool. You could use an AIO (all in one cooler), but those use at most a 280mm radiator (more on that later) and simply do not have the thermal capacity for the most extreme applications. Thus, a custom loop to the resue. Also, if you are building a custom PC, the status quo effectively forces you to water cool, since all high end build utilize this method and no serious PC does not. Finally water cooling allows for quieter operation. Because you are passing water through a radiator, you can use large radiators with larger surface area, and more fans spinning slower. To achieve the same performance with air cooling you need the one or two fans you can fit on a small heatsink to be spinning very fast, which creates noise. Three fans spinning at slow RPMs are quieter than one fan spinning at high revolutions.
+		&nbsp; &nbsp;&nbsp;&nbsp; So the biggest advantage to water cooling, in my mind, is the looks. The visual appeal that can be created by water cooling cannot be matched or replicated in any other way, the results are simply stunning if done correctly and adequate effort is applied. The second main advantage is that is you want the absolute best performance you simply need to water cool, and do it with a custom loop. You can honestly get some killer performance from air cooling, it works for over 90% of computers live today. However if you need the absolute most performance, only to be achieved by overclocking, you need to water cool. overclocking for the uninitiated is raising the power input and performance thresholds for your various chips (CPU, GPU, RAM) above their factory defaults. These defaults are set to match the thermal capacity of the product. This is why more expensive graphics cards cost more and are larger, they use larger cooling apparatuses to slow for a higher clock. If you want to take these limits to the extreme you will exceed what you can cool by air and will need to water cool. You could use an AIO (all in one cooler), but those use at most a 280mm radiator (more on that later) and simply do not have the thermal capacity for the most extreme applications. Thus, a custom loop to the rescue. Also, if you are building a custom PC, the status quo effectively forces you to water cool, since all high end build utilize this method and no serious PC does not. Finally water cooling allows for quieter operation. Because you are passing water through a radiator, you can use large radiators with larger surface area, and more fans spinning slower. To achieve the same performance with air cooling you need the one or two fans you can fit on a small heatsink to be spinning very fast, which creates noise. Three fans spinning at slow RPMs are quieter than one fan spinning at high revolutions.
 		<br>&nbsp; &nbsp;&nbsp;&nbsp; Now for the disadvantages. Like every custom project, this will involve time and effort. This is the major hurdle for most people, they just do not understand how it is done or are afraid to break their build. Water cooling will take significant planning, assembly, and maintenance over time, but the results to many are worth it. The other disadvantage is the price. For $20 you can get a fantastic air cooler (such as the Cooler Master Hyper 212 EVO). This is a killer heatsink and will allow you to get some decent overclocks. Water cooling, however, can cost a lot of money once all the parts are purchased, and effectively will only grant you a marginal performance gain. 
 		<br><br>&nbsp; &nbsp;&nbsp;&nbsp; Now that you understand the concept and are aware of the disadvantages it is time to learn how to actually plan and build your loop.
 						</p>
 						<hr>
-						<h4>Part 2: The Parts Needed and Their Jobs</h4>
-						<img src="images/wcparts.png" alt="water cooling parts pic" width="100%" height="100%">
+						<h3>Part 2: The Parts Needed and Their Jobs</h3><hr>
+						<center><img id="img80" src="images/wcparts.png" alt="water cooling parts pic" width="80%" height="100%"></center>
+						<p>To build a custom loop you will need many parts, in fact you will probably need more parts for your loop than you did for your entire build. First I will start out by listing general categories and then going more in depth.</p>
+						<h4>Water Blocks</h4>
+						<p>Water blocks are the heart of a liquid cooling build, they are what the cooled water is actually pumped through. Water blocks are made for many different parts of the build, but only a few are necessary:
+						<ul>
+							<li><b>CPU Blocks- </b> these are the most important as the CPU needs to be cooled the most since it all high end CPUs will not include a cooler and will likely be overclocked the most</li>
+							<li><b>GPU Blocks-</b>Graphics cards produce the most amount of heat, and therefore it may be nice to water cool them. However, if you bought a high end graphics card, it likely already has a great stock cooler and may not need water cooling unless you will be utilizing high overclocks.</li> 
+							<br><blockquote>This brings up another advantage to water cooling- the thermal output by each component is less. What this means is that even if a graphics card has a very beefy cooler already and might not need the liquid cooling to keep its thermals under control, water cooling may still be necessary for thermal output concerns. Graphics cards output <b>a lot</b> of heat, especially with air coolers equipped with fans. In a high end build Crossfire of SLI is likely going to be used, and having 3 graphics cards stuck right next to each other means an extremely large c concentration of heat on those chips. Liquid cooling can remove some of the thickness spreading them apart and leaving them room to breath, but also collects the heat into the water instead of the air around the cards. </blockquote>
+							<li><b>Motherboard Blocks- </b>Motherboards can also be cooled. These water blocks can be sold as all-in-one (full cover) blocks, or as separate blocks. The water cooled parts of a motherboard are the same parts the factory cooling solution covers. This is typically the south bridge (PCH) chip, and the power control (VRM / MOSFETs) modules. Water cooling a motherboard is often more for aesthetic reasons, but can help with thermals.</li>
+							<li><b>RAM Blocks- </b>Memory sticks can also be water cooled, but really do not need to be unless you are trying to achieve very high overclocks.
+							<li><b>SSD Blocks- </b>SSDs are the last component that is common to be water cooled. This is the least common as it really is unnecessary. 
+
+						</ul>
+						<div class="row">
+								<div class="6u 12u$(small)">
+									<b>Below is a list of the most reputable and highest quality block manufacturers:</b> 
+									<ul>
+										<li>EK Waterblocks</li>
+										<li>Alphacool</li>
+										<li>Swiftech</li>
+										<li>XSPC</li>
+										<li>Bitspower</li>
+										<li>Koolance</li>
+									</ul>
+								</div>
+								<div class="6u 12u$(small)">
+									<b>Here is also a list of some good stores to buy water blocks and other cooling parts from:</b> 
+									<ul>
+										<li><a href="http://www.frozencpu.com/cat/l1/g30/Liquid_Cooling.html">Frozen CPU.com</a></li>
+										<li><a href="https://www.ekwb.com/shop/water-blocks">EKWB.com</a></li>
+										<li><a href="http://www.newegg.com">Newegg.com</a></li>
+										<li><a href="http://www.performance-pcs.com">Performance PCs.com</a></li>
+									</ul>
+								</div>
+						</div>
+						<br>
+						<h4>Fans/Radiators</h4>
+						<h4>Tubing</h4>
+						<h4>Reservoirs</h4>
+						<h4>Coolant</h4>
+						<h4>Pumps</h4>
+						<h4>Fittings</h4>
+						
+
+
+						<hr>
+						<h3>Part 3: Optional Additions to Your Loop</h3><hr>
+						<center><img id="img80" src="images/Computer%20Picture%20%20327.jpeg" alt="metal tubing build pic" width="80%" height="100%"></center> <!-- Backplates, steel tubing, etc. -->
 						<p></p>
-						<h4>Part 3: Optional Additions to Your Loop</h4>
-						<img src="images/Computer%20Picture%20%20327.jpeg" alt="metal tubing build pic" width="100%" height="100%">
+						<h3>Part 4: Planning your loop</h3>
 						<p></p>
-						<h4>Part 4: Planning your loop</h4>
+						<h3>Part 5: Assembling the water blocks, reservoirs, and pumps</h3>
 						<p></p>
-						<h4>Part 5: Assembling the water blocks, reservoirs, and pumps</h4>
+						<h3>Part 6: Tubing and fittings </h3>
 						<p></p>
-						<h4>Part 6: Tubing and fittings </h4>
+						<h3>Part 7: Putting it all together</h3>
 						<p></p>
-						<h4>Part 7: Putting it all together</h4>
+						<h3>Part 8: Maintenance and Upkeep</h3>
 						<p></p>
-						<h4>Part 8: Maintenance and Upkeep</h4>
-						<p></p>
-						<h4>Part 9: Additional Resources</h4>
+						<h3>Part 9: Additional Resources</h3>
 						<p></p>
 						
 					</div>
