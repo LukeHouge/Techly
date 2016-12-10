@@ -2177,7 +2177,11 @@
 
 /* Image */
 
-
+	@media screen and (max-width: 600px) {	
+		#img80 {
+		width: 100%;
+		}
+	}
 	.image {
 		border-radius: 4px;
 		border: 0;
