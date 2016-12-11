@@ -54,16 +54,16 @@
 				<section class="wrapper">
 					<div  class="inner">
 						<center><h3>Table of Contents</h3>
-						<ul class="alt">
-							<li>PART 1: LIQUID COOLING BASICS</li>
-							<li>PART 2: THE PARTS NEEDED AND THEIR JOBS</li>
-							<li>PART 3: OPTIONAL ADDITIONS TO YOUR LOOP</li>
-							<li>PART 4: PLANNING YOUR LOOP</li>
-							<li>PART 5: ASSEMBLING THE WATER BLOCKS, RESERVOIRS, AND PUMPS</li>
-							<li>PART 6: TUBING AND FITTINGS</li>
-							<li>PART 7: PUTTING IT ALL TOGETHER</li>
-							<li>PART 8: MAINTENANCE AND UPKEEP</li>
-							<li>PART 9: ADDITIONAL RESOURCES</li>
+						<ul class="alt" id="tablecontents">
+							<a href="#part1"><li>PART 1: LIQUID COOLING BASICS</li></a>
+							<a href="#part2"><li>PART 2: THE PARTS NEEDED AND THEIR JOBS</li></a>
+							<a href="#part3"><li>PART 3: OPTIONAL ADDITIONS TO YOUR LOOP</li></a>
+							<a href="#part4"><li>PART 4: PLANNING YOUR LOOP</li></a>
+							<a href="#part5"><li>PART 5: ASSEMBLING THE WATER BLOCKS, RESERVOIRS, AND PUMPS</li></a>
+							<a href="#part6"><li>PART 6: TUBING AND FITTINGS</li></a>
+							<a href="#part7"><li>PART 7: PUTTING IT ALL TOGETHER</li></a>
+							<a href="#part8"><li>PART 8: MAINTENANCE AND UPKEEP</li></a>
+							<a href="#part9"><li>PART 9: ADDITIONAL RESOURCES</li></a>
 						</ul>
 						<hr>
 						</ul></center>
@@ -102,7 +102,7 @@
 		<br><br>Now that you understand the concept and are aware of the disadvantages it is time to learn how to actually plan and build your loop.
 						</p>
 						<hr>
-						<h3>Part 2: The Parts Needed and Their Jobs</h3><hr>
+						<h3 id="part2">Part 2: The Parts Needed and Their Jobs</h3><hr>
 						<center><img id="img80" src="images/wcparts.png" alt="water cooling parts pic" width="80%" height="80%"></center>
 						<b><center><p width="80%">To build a custom loop you will need many parts, in fact you will probably need more parts for your loop than you did for your entire build. First I will start out by listing general categories and then going more in depth.</p></b></center>
 						<h4>Water Blocks</h4>
@@ -111,7 +111,7 @@
 						<ul>
 							<li><b>CPU Blocks- </b> these are the most important as the CPU needs to be cooled the most since it all high end CPUs will not include a cooler and will likely be overclocked the most</li>
 							<li><b>GPU Blocks-</b>Graphics cards produce the most amount of heat, and therefore it may be nice to water cool them. However, if you bought a high end graphics card, it likely already has a great stock cooler and may not need water cooling unless you will be utilizing high overclocks.</li> 
-							<br><blockquote>This brings up another advantage to water cooling- the thermal output by each component is less. What this means is that even if a graphics card has a very beefy cooler already and might not need the liquid cooling to keep its thermals under control, water cooling may still be necessary for thermal output concerns. Graphics cards output <b>a lot</b> of heat, especially with air coolers equipped with fans. In a high end build Crossfire of SLI is likely going to be used, and having 3 graphics cards stuck right next to each other means an extremely large c concentration of heat on those chips. Liquid cooling can remove some of the thickness spreading them apart and leaving them room to breath, but also collects the heat into the water instead of the air around the cards. </blockquote>
+							<br><br><blockquote>This brings up another advantage to water cooling- the thermal output by each component is less. What this means is that even if a graphics card has a very beefy cooler already and might not need the liquid cooling to keep its thermals under control, water cooling may still be necessary for thermal output concerns. Graphics cards output <b>a lot</b> of heat, especially with air coolers equipped with fans. In a high end build Crossfire of SLI is likely going to be used, and having 3 graphics cards stuck right next to each other means an extremely large c concentration of heat on those chips. Liquid cooling can remove some of the thickness spreading them apart and leaving them room to breath, but also collects the heat into the water instead of the air around the cards. </blockquote>
 							<li><b>Motherboard Blocks- </b>Motherboards can also be cooled. These water blocks can be sold as all-in-one (full cover) blocks, or as separate blocks. The water cooled parts of a motherboard are the same parts the factory cooling solution covers. This is typically the south bridge (PCH) chip, and the power control (VRM / MOSFETs) modules. Water cooling a motherboard is often more for aesthetic reasons, but can help with thermals.</li>
 							<li><b>RAM Blocks- </b>Memory sticks can also be water cooled, but really do not need to be unless you are trying to achieve very high overclocks, and really it just looks cooler than is	 really necessary. 
 							<li><b>SSD Blocks- </b>SSDs are the last component that is common to be water cooled. This is the least common as it really is unnecessary. 
@@ -161,26 +161,29 @@
 							</p>
 	
 						<h4>Pumps</h4>
-							<center><img src="images/wcpumps.jpg" width="80%" height="80%" id="img80">
+							<center><img class="image left" src="images/wcpumps.jpg" width="80%" height="80%" id="img80"></center>
+					<p>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br></p>
 						<h4>Reservoirs</h4>
-							<center><img src="images/wcreservoir.jpg" width="80%" height="80%" id="img80"></center>
+							<center><img class="image right" src="images/wcreservoir.jpg" width="80%" height="80%" id="img80"></center>
+				<p>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br></p>
+						<br>
 						<h4>Tubing</h4>
 							<div class="row">
 								<div class="6u 12u$(small)">
 									<center><h5>Soft Tubing</h5>
-									<img src="images/wcsofttubing.jpg" width="80%" height="80%" id="img80"></center>
-									<p>Soft tubing is made out of norprene, rubber, silicone, and PVC most often. It comes in clear, and colered varients; and you can even get UV reactive tubing. The quality of tubing matters as the lower quality tubing can become discolered and yellow, or loose its transparencty. One problem with soft tubing is that it can kink with tight bends, but anti-kink cables can rectify this.</p>
+									<img src="images/wcsofttubing.jpg" width="80%" height="120px" id="img80"></center>
+									<br><p>Soft tubing is made out of norprene, rubber, silicone, and PVC most often. It comes in clear, and colored variants variants; and you can even get UV reactive tubing. The quality of tubing matters as the lower quality tubing can become discolored and yellow, or loose its transparency. One problem with soft tubing is that it can kink with tight bends, but anti-kink cables can rectify this. Soft tubing is nice to use, and better for those first building a loop. The reason is that it is flexible, and easy to bend, as well as easy to cut. You can just hold it up to the fittings you want to connect, and then cut it to that length. While soft tubing is easy to install, it doesn't have the same clean look that you get from hard, straight tubing.</p>
 								</div>
 								<div class="6u$ 12u$(small)">
 									<center><h5>Hard Tubing</h5>
-									<img src="images/wchardtubing.jpg" width="80%" height="80%" id="img80"></center>
-									<p>Hard tubing is usuallty made of acrylic (plexi glass) or PETG (polyethylene terephthalate). Hard tubing is harder to use, as you need careful consideration for every tube. FOr soft tubing, you can hold the tube up, bend it however you want, and then cut it exactly where you need it. Hard tubing needs to be measured out excactly, and bent using a heat gun precisely. If you bend the tube incorectly it can look messy, or not fit the run you are trying to tube. You can also use right angle fittins if you do not want to bend the tube. Another form of hard tubing is copper tubing. This can be painted, and has different look than clear PETG or acrylic tubing, although it is more difficult to work with and bend. Hard tubing offers a clean and aestheticly pleasing look, which is why you will see it more in high end builds.</p>
-							</div>
+									<img src="images/wchardtubing.jpg" width="80%" height="120px" id="img80"></center>
+									<br><p>Hard tubing is usually made of acrylic (plexi glass) or PETG (polyethylene terephthalate). Hard tubing is harder to use, as you need careful consideration for every tube. Hard tubing needs to be measured out exactly, and bent using a heat gun precisely. If you bend the tube incorrectly it can look messy, or not fit the run you are trying to tube. You can also use right angle fittings if you do not want to bend the tube. Another form of hard tubing is copper tubing. This can be painted, and has a different look than clear PETG or acrylic tubing, although it is more difficult to work with and bend. Hard tubing offers a clean and aesthetically pleasing look, which is why you will see it more in high end builds.</p>
+							</div></div><br>
 							<center><h5>Tubing Measurements</h5>
 									<img src="images/wctubingsize.jpg" width="80%" height="80%" id="img80"></center>
 								<div class="row">
 								<div class="6u 12u$(small)">
-									<div class="box"><p><b><center>Metric measurements</b></center>Tubes are given and ID (innder diameter), and an OD (outer diamater), smaller number is the innder diammeter, and the other number is the outer diamter. he four most common sizes are: </p>
+									<br><div class="box"><p><b><center>Metric measurements</b></center>Tubes are given and ID (inner diameter), and an OD (outer diameter), smaller number is the inner diameter, and the other number is the outer diameter. he four most common sizes are: </p>
 										<ul>
 											<li>10/13mm</li>
 											<li>10/16mm</li>
@@ -188,33 +191,39 @@
 											<li>13/19mm</li>
 										</ul>
 									</div></div>
-								<div class="6u 12u$(small)">
-									<div class="box"><p><b><center>Imperial measurements</b></center>Smaller number is the innder diammeter, and the other number is the outer diamter.</p>
+								<br><div class="6u 12u$(small)">
+									<div class="box"><p><b><center>Imperial measurements</b></center>Smaller number is the inner diameter, and the other number is the outer diameter.</p>
 										<ul>
 											<li>3/8”-1/2”
 											<li>3/8”-5/8”</li>
 											<li>7/16”-5/8”</li>
 											<li>1/2”-3/4”</li>
 										</ul>
-									</div></div></div>
-							<h4>Coolant</h4>
+									</div>
+								</div>
+								</div></div>
+						<div class="inner"><h4>Coolant</h4>
+							<center><img class="image left" src="images/wccoolant.jpg" width="80%" height="80%" id="img80"></center>
+								<p>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text <br>Text<br>Text<br>
 						<h4>Fittings</h4>
+							<center><img class="image right" src="images/wcfittings.jpg" width="80%" height="80%" id="img80"></center>
+							<p>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text<br>Text <br>Text<<br>
 
 						<hr>
-						<h3>Part 3: Optional Additions to Your Loop</h3><hr>
+						<h3 id="part3">Part 3: Optional Additions to Your Loop</h3><hr>
 						<center><img id="img80" src="images/Computer%20Picture%20%20327.jpeg" alt="metal tubing build pic" width="80%" height="80%"></center> <!-- Backplates, steel tubing, , fan controllers, etc. -->
 						<p></p>
-						<hr><h3>Part 4: Planning your loop</h3><hr>
+						<hr><h3 id="part4">Part 4: Planning your loop</h3><hr>
 						<p></p>
-						<hr><h3>Part 5: Assembling the water blocks, reservoirs, and pumps</h3><hr>
+						<hr><h3 id="part5">Part 5: Assembling the water blocks, reservoirs, and pumps</h3><hr>
 						<p></p>
-						<hr><h3>Part 6: Tubing and fittings </h3><hr>
+						<hr><h3 id="part6">Part 6: Tubing and fittings </h3><hr>
 						<p></p>
-						<hr><h3>Part 7: Putting it all together</h3><hr>
+						<hr><h3 id="part7">Part 7: Putting it all together</h3><hr>
 						<p></p>
-						<hr><h3>Part 8: Maintenance and Upkeep</h3><hr>
+						<hr><h3 id="part8">Part 8: Maintenance and Upkeep</h3><hr>
 						<p></p>
-						<hr><h3>Part 9: Additional Resources</h3><hr>
+						<hr><h3 id="part9">Part 9: Additional Resources</h3><hr>
 						<p>Here is a collection of resources I found extremely useful in building my own loop, and may help you as well:</p>
 						<ul>
 							<li><a href="https://www.ekwb.com/custom-loop-configurator/">EK Loop Configurator</a></li>
