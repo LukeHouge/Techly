@@ -2267,6 +2267,16 @@
 
 /* List */
 
+	#tablecontents a {
+		text-decoration: none;
+		color: #444444;
+	}
+	
+	#tablecontents a:hover {
+		text-decoration: underline;
+		color: #ef7e5b
+	}
+	
 	ol {
 		list-style: decimal;
 		margin: 0 0 2em 0;
