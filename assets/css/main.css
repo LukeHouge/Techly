@@ -1,12 +1,15 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
 
-/*
-	Tactile by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
+/* Ofsets in page link so that the header does not cover content" */
+:target:before {
+	content:"";
+	display:block;
+	height: 100px; /* fixed header height*/
+	margin:-100px 0 0; /* negative fixed header height */
+	}
+	
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1389,11 +1392,7 @@
 
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Basic */
 
@@ -1428,11 +1427,7 @@
 			transition: none !important;
 		}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Type */
 
@@ -1675,11 +1670,7 @@
 		border-bottom-color: rgba(144, 144, 144, 0.3);
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Box */
 
@@ -1706,11 +1697,7 @@
 		border-color: rgba(144, 144, 144, 0.3);
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Button */
 
@@ -1885,11 +1872,7 @@
 				color: #ffffff;
 			}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Form */
 
@@ -2129,11 +2112,7 @@
 		color: #bbb !important;
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Icon */
 
@@ -2169,14 +2148,10 @@
 		color: #ef7f5b;
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Image */
-
+	/* Sets half screen images (left or right) to 100% when screen size is smaller than 600px. Use width of 80% in code */
 	@media screen and (max-width: 600px) {	
 		#img80 {
 		width: 100%;
@@ -2212,8 +2187,6 @@
 
 		}
 
-
-		
 		.image.left {
 			float: left;
 			margin: 0 2.5em 2em 0;
@@ -2259,11 +2232,7 @@
 		}
 
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* List */
 
@@ -2481,11 +2450,7 @@
 		border-top-color: rgba(144, 144, 144, 0.3);
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Section/Article */
 
@@ -2522,11 +2487,7 @@
 		color: #bbb;
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Table */
 
@@ -2615,11 +2576,7 @@
 		border-color: rgba(144, 144, 144, 0.3);
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Features */
 
@@ -2749,11 +2706,7 @@
 		border-top-color: rgba(144, 144, 144, 0.1);
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Spotlight */
 
@@ -2864,11 +2817,7 @@
 		border-bottom-color: rgba(144, 144, 144, 0.3);
 	}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Header */
 
@@ -3673,11 +3622,7 @@
 
 		}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Wrapper */
 
@@ -4180,11 +4125,7 @@
 
 		}
 
-	/*
-		Tactile by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	 
 
 /* Footer */
 
