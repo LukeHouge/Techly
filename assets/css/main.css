@@ -2162,6 +2162,10 @@
 		border: 0;
 		display: inline-block;
 		position: relative;
+		transition: all .5s ease;
+	}
+	.image:hover{
+		opacity: 0.65;
 	}
 
 		.image img {
@@ -2999,7 +3003,8 @@
 
 	#menu .inner a {
 	    color: #ffffff;
-		text-decoration: none;		
+		text-decoration: none;	
+		transition: all .2s ease;	
 	}
 
 	#menu .inner a:hover {
