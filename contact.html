@@ -81,7 +81,7 @@
 									<h2>Contact</h2>
 								</header>
 									<form method="POST" action="https://formspree.io/techlybuilds@gmail.com">
-									<input type="hidden" name="_next" value="contact.hml#thanks">
+									<input type="hidden" name="_next" value="contact.html#thanks">
 									<div class="field first half">
 										<label for="name">Name</label>
 										<input type="text" name="name" placeholder=" ">
@@ -96,7 +96,8 @@
 									</div>
 									<div class="field first half">
 										<ul class="actions vertical special spinY">
-											<button type="submit">Send Message</button>		
+											<input type="submit" name="xxx" value="Send Form" onclick="document.getElementById('my_id').style.display = 'block' ;">
+                                                                                          <div id="my_id" style="display: none"> My text </div>		
 										</ul>
 									</div>
 								</form>
