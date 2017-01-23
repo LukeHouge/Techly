@@ -2,13 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
 
 
-/* Ofsets in page link so that the header does not cover content" */
-:target:before {
-	content:"";
-	display:block;
-	height: 0px; /* fixed header height*/
-	margin:-0px 0 0; /* negative fixed header height */
-	}
+
 	
 /* Reset */
 
