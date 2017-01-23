@@ -12,7 +12,7 @@
 		border: 0;
 		font-size: 100%;
 		font: inherit;
-		vertical-align: baseline;
+	vertical-align: baseline;
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -1883,14 +1883,6 @@
 		text-transform: uppercase;
 		letter-spacing: 0.25em;
 	}
-	label {
-			color: #D8475A;
-			display: block;
-			margin: 0 0 1em 0;
-			text-transform: uppercase;
-			letter-spacing: 0.25em;
-		}
-
 
 	input[type="text"],
 	input[type="password"],
