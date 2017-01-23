@@ -17,7 +17,7 @@
 		<link rel="icon" href="images/logo.ico">
 		<meta property="og:title" content="Techly" />
 		<meta property="og:image" content="images/MobilePreview.png" />
-	        <link rel="apple-touch-icon" href="images/Contact.png">
+	    <link rel="apple-touch-icon" href="images/Contact.png">
 	</head>
 	<body class="is-loading-0 is-loading-1">
 
@@ -80,23 +80,26 @@
 								<header>
 									<h2>Contact</h2>
 								</header>
-								<form method="POST" action="https://formspree.io/contact@techlybuilds.com">
+								<form action="https://formspree.io/contact@techlybuilds.com" method="POST">
 									<input type="hidden" name="_next" value="thanks.html">
 									<input type="hidden" name="_subject" value="Techly Builds Submission" />
 									<div class="field first half">
-										<label for="name">Name</label>
-										<input type="text" name="name" placeholder=" ">
+								    	<span class="input"></span>
+								    	<label1 for="name">Name</label>
+								    	<input type="text" name="name" title="Format: Xx [space] Xx (e.g. Luke Houge)" autofocus autocomplete="off" required pattern="^\w+\s\w+$" />
 									</div>
 									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" placeholder=" "> </div>      
+									    <span class="input"></span>
+									    <label1 for="email">Email</label>
+									    <input type="email" name="email" required />
+									</div>
 									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" placeholder=" " rows="5"></textarea>
+									    <label1 for="message">Message</label>
+										<textarea name="message" placeholder=" " rows="5" required></textarea>
 										<br>
 									</div>
 									<div class="field first half">
-										<input class="button" type="submit">
+								    	<button type="submit" value="Submit" title="Submit form" class="button"><span>Submit</span></button>
 									</div>
 								</form>
 							</div>
@@ -116,6 +119,52 @@
 			<script src="assets2/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets2/js/main.js"></script>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+		  <!-- checks if browser supports HTML5 attributes for input fields -->
+		  <script src="assets2/js/modernizr.min.js"></script>
+		  <script>
+		    // for form validation
+		    var unsupportedBrowsers = false;
+		    if ((navigator.userAgent.indexOf('Safari') != -1 && navigator.userAgent.indexOf('Chrome') == -1) || (navigator.userAgent.match(/MSIE\s(?!10)/))) {
+		      unsupportedBrowsers = true;
+		    }
+		
+		    // Tests with Modernizr if supports HTML5 placeholder="" attribute. If old browser, load necessary JS files and run them
+		    if (!Modernizr.input.placeholder) {
+		      Modernizr.load({
+		        load: [
+		          'placeholder.min.js',
+		        ],
+		        complete: function(){
+		          $('input').placeholder();
+		        }
+		      })
+		    }
+		
+		    // ugly browser sniffer for form validation
+		    if (unsupportedBrowsers) {
+		      Modernizr.load({
+		        load: [
+		          'assets2/js/jquery.validate.min.js'
+		        ],
+		        complete: function(){
+		          // parse through each required input
+		          $('form').find('input[required]').each(function () {
+		            // add a class to each required field with "required" & the input type
+		            // using the normal "getAttribute" method because jQuery's attr always returns "text"
+		            $(this).attr('class', 'required ' + this.getAttribute('type')).removeAttr('required');
+		          });
+		
+		          // call jQuery validate plugin on each form
+		          $('form').each(function () {
+		            $(this).validate();
+		          });
+		        }
+		      })
+		    }
+			</script>
+
 
 	</body>
 </html>
