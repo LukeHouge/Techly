@@ -1874,12 +1874,23 @@
 		margin: 0 0 2em 0;
 	}
 
-	label {
+	 label1 {
+		color: #555;
 		display: block;
-		font-size: 0.9em;
-		font-weight: 700;
+		font-size: 0.8em;
+		font-weight: 500;
 		margin: 0 0 1em 0;
+		text-transform: uppercase;
+		letter-spacing: 0.25em;
 	}
+	label {
+			color: #D8475A;
+			display: block;
+			margin: 0 0 1em 0;
+			text-transform: uppercase;
+			letter-spacing: 0.25em;
+		}
+
 
 	input[type="text"],
 	input[type="password"],
