@@ -1,4 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,700");
 
+
+
+	
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -3636,6 +3640,7 @@
 
 			.wrapper > .inner.narrow {
 				max-width: 32em;
+				color:#ffffff;
 			}
 
 		.wrapper.alt {
@@ -3644,7 +3649,7 @@
 
 		.wrapper.style1 {
 			background-color: #ef7f5b;
-			color: #fef9f7;
+			color: #535569;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3653,6 +3658,10 @@
 
 			.wrapper.style1 a {
 				color: #fff;
+			}
+			
+			.wrapper.style1 a:hover {
+				color: #545669;
 			}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
