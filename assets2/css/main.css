@@ -352,7 +352,7 @@
 
 		}
 
-	label1 {
+	label.red {
 		color: #555;
 		display: block;
 		font-size: 0.8em;
@@ -1507,6 +1507,10 @@
 			letter-spacing: 0.25em;
 			margin-bottom: 0;
 			text-transform: uppercase;
+		}
+		
+		#footer p {
+			text-align: center;
 		}
 
 		#footer.inactive {
