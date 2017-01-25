@@ -3705,17 +3705,10 @@
 			.wrapper.style1 .button.special:hover {
 				background-color: #607D8B;
 				color: #ffffff !important;
-<<<<<<< HEAD
 
 			}
 
 
-=======
-
-			}
-
-
->>>>>>> aad1c15f332bd30be42c412907494331d28b7e9c
 			.wrapper.style1 input[type="submit"]:hover,
 			.wrapper.style1 input[type="reset"]:hover,
 			.wrapper.style1 input[type="button"]:hover,
