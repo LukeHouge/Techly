@@ -180,26 +180,6 @@
 					});
 
 			}
-
-		// Spotlights.
-			var $spotlight = $('.spotlight');
-
-			if ($spotlight.length > 0
-			&&	skel.canUse('transition'))
-				$spotlight.each(function() {
-
-					var $this = $(this);
-
-					$this.scrollex({
-						mode: 'middle',
-						top: '-10vh',
-						bottom: '-10vh',
-						initialize: function() { $this.addClass('inactive'); },
-						enter: function() { $this.removeClass('inactive'); }
-					});
-
-				});
-
 		// Features.
 			var $features = $('.features');
 
