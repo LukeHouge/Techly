@@ -1812,7 +1812,7 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.1);
+			background-color: rgba(211, 74, 74, 0.1);
 		}
 
 		input[type="submit"]:active,
@@ -1846,7 +1846,7 @@
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: #f19172;
+				background-color: #0f0500;
 			}
 
 			input[type="submit"].special:active,
@@ -3648,8 +3648,8 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #ef7f5b;
-			color: #535569;
+			background-color: #212121;
+			color: #ffffff;
 		}
 
 			.wrapper.style1 input, .wrapper.style1 select, .wrapper.style1 textarea {
@@ -3661,7 +3661,7 @@
 			}
 			
 			.wrapper.style1 a:hover {
-				color: #545669;
+				color: #607D8B;
 			}
 
 			.wrapper.style1 strong, .wrapper.style1 b {
@@ -3702,22 +3702,33 @@
 				border-color: rgba(255, 255, 255, 0.3);
 				color: #ffffff !important;
 			}
+			
+			.wrapper.style1 input[type="submit"].special:hover,
+			.wrapper.style1 input[type="reset"].special:hover,
+			.wrapper.style1 input[type="button"].special:hover,
+			.wrapper.style1 button.special:hover,
+			.wrapper.style1 .button.special:hover {
+				background-color: #607D8B;
+				color: #ffffff !important;
 
-				.wrapper.style1 input[type="submit"]:hover,
-				.wrapper.style1 input[type="reset"]:hover,
-				.wrapper.style1 input[type="button"]:hover,
-				.wrapper.style1 button:hover,
-				.wrapper.style1 .button:hover {
-					background-color: rgba(255, 255, 255, 0.1);
-				}
+			}
 
-				.wrapper.style1 input[type="submit"]:active,
-				.wrapper.style1 input[type="reset"]:active,
-				.wrapper.style1 input[type="button"]:active,
-				.wrapper.style1 button:active,
-				.wrapper.style1 .button:active {
-					background-color: rgba(255, 255, 255, 0.2);
-				}
+
+			.wrapper.style1 input[type="submit"]:hover,
+			.wrapper.style1 input[type="reset"]:hover,
+			.wrapper.style1 input[type="button"]:hover,
+			.wrapper.style1 button:hover,
+			.wrapper.style1 .button:hover {
+				background-color: rgba(255, 255, 255, 0.1);
+			}
+
+			.wrapper.style1 input[type="submit"]:active,
+			.wrapper.style1 input[type="reset"]:active,
+			.wrapper.style1 input[type="button"]:active,
+			.wrapper.style1 button:active,
+			.wrapper.style1 .button:active {
+				background-color: rgba(255, 255, 255, 0.2);
+			}
 
 				.wrapper.style1 input[type="submit"].icon:before,
 				.wrapper.style1 input[type="reset"].icon:before,
@@ -3733,16 +3744,9 @@
 				.wrapper.style1 button.special,
 				.wrapper.style1 .button.special {
 					border: none;
-					background-color: #fff;
-					color: #ef7f5b !important;
-				}
-
-					.wrapper.style1 input[type="submit"].special:hover,
-					.wrapper.style1 input[type="reset"].special:hover,
-					.wrapper.style1 input[type="button"].special:hover,
-					.wrapper.style1 button.special:hover,
-					.wrapper.style1 .button.special:hover {
-						background-color: white;
+					background-color: #ffffff;
+					color: #212121 !important;
+					
 					}
 
 					.wrapper.style1 input[type="submit"].special:active,
@@ -3750,7 +3754,7 @@
 					.wrapper.style1 input[type="button"].special:active,
 					.wrapper.style1 button.special:active,
 					.wrapper.style1 .button.special:active {
-						background-color: #f2f2f2;
+						background-color: #e83636;
 					}
 
 					.wrapper.style1 input[type="submit"].special.icon:before,
@@ -3876,8 +3880,8 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #545669;
-			color: #e5e6e9;
+			background-color: #ef7f5b;
+			color: #ffffff;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3897,7 +3901,7 @@
 			}
 
 				.wrapper.style2 h1.major:after, .wrapper.style2 h2.major:after, .wrapper.style2 h3.major:after, .wrapper.style2 h4.major:after, .wrapper.style2 h5.major:after, .wrapper.style2 h6.major:after {
-					background-color: rgba(0, 0, 0, 0.3);
+					background-color: rgba(255,  255,  255, 1);
 				}
 
 			.wrapper.style2 blockquote {
@@ -3910,7 +3914,7 @@
 			}
 
 			.wrapper.style2 hr {
-				border-bottom-color: rgba(0, 0, 0, 0.3);
+				border-bottom-color: rgba(255, 255, 255, 0.3);
 			}
 
 			.wrapper.style2 .box {
@@ -3957,8 +3961,8 @@
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
 					border: none;
-					background-color: #ef7f5b;
-					color: #ffffff !important;
+					background-color: #ffffff;
+					color: #ef7f5b !important;
 				}
 
 					.wrapper.style2 input[type="submit"].special:hover,
@@ -3966,7 +3970,9 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #f19172;
+						background-color: #e8511f;
+						color: #ffffff !important;
+
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -4136,7 +4142,7 @@
 /* Footer */
 
 	#footer {
-		background-color: #545669;
+		background-color: #607D8B;
 		color: #e5e6e9;
 		padding: 5em 0 3em 0 ;
 	}
@@ -4158,7 +4164,7 @@
 		}
 
 			#footer h1.major:after, #footer h2.major:after, #footer h3.major:after, #footer h4.major:after, #footer h5.major:after, #footer h6.major:after {
-				background-color: rgba(0, 0, 0, 0.3);
+				background-color: rgba(255, 255, 255, 1);
 			}
 
 		#footer blockquote {
@@ -4218,8 +4224,8 @@
 			#footer button.special,
 			#footer .button.special {
 				border: none;
-				background-color: #ef7f5b;
-				color: #ffffff !important;
+				background-color: #ffffff;
+				color: #2d5569 !important;
 			}
 
 				#footer input[type="submit"].special:hover,
@@ -4227,7 +4233,8 @@
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: #f19172;
+					background-color: #455A64;
+					color: #ffffff !important;
 				}
 
 				#footer input[type="submit"].special:active,
