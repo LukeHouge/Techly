@@ -2949,7 +2949,7 @@
 
 		}
 
-		@media screen and (max-width: 590px) {
+		@media screen and (max-width: 350px) {
 
 			#header .logo span {
 				display: none;
