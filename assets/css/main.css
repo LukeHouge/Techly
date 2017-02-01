@@ -2960,11 +2960,15 @@
 			#banner .button.big.scrolly span {
 				display: none;
 			}
+		}
 			
-			#three .button.special.big span {
+			
+			@media screen and (max-width: 355px) {
+
+			three .button.big.scrollyy span {
 				display: none;
 			}
-			
+				
 			
 			#header nav ul li a[href="#menu"]:only-child {
 				width: 6em;
