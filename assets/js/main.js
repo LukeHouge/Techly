@@ -206,9 +206,6 @@
 			$window.on('load', function() {
 				$window.trigger('scroll');
 			});
-		{$('.toTop').fadeIn(200);
-				} else {
-					$('.toTop').fadeOut(200);}
 
 	});
 
