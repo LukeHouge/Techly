@@ -205,6 +205,13 @@
 		// Initial scroll.
 			$window.on('load', function() {
 				$window.trigger('scroll');
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 200) {
+					$('.toTop').fadeIn(200);
+				} else {
+					$('.toTop').fadeOut(200);
+				}
+			});
 			});
 
 	});
