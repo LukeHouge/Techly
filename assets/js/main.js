@@ -165,9 +165,6 @@
 				// More button.
 					$banner.find('.more')
 						.addClass('scrolly');
-				{$('.toTop').fadeIn(200);
-				} else {
-					$('.toTop').fadeOut(200);}
 
 				// Header.
 					$header
@@ -209,6 +206,9 @@
 			$window.on('load', function() {
 				$window.trigger('scroll');
 			});
+		{$('.toTop').fadeIn(200);
+				} else {
+					$('.toTop').fadeOut(200);}
 
 	});
 
