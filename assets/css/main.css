@@ -1,5 +1,6 @@
 /* css for print view */
 @media print {
+	#page-wrapper {display: none;}
 	h3	{ display: block; page-break-before: always; }
 	img { width:65%;}
 	#img80 {width:65%; float:left; margin: 0 2.5em 2em 0;}
