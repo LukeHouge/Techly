@@ -1,3 +1,17 @@
+/* css for print view */
+@media print {
+	h3	{ display: block; page-break-before: always; }
+	img { width:65%;}
+	#img80 {width:65%; float:left; margin: 0 2.5em 2em 0;}
+	#tablecontents {display:none;}
+	header {display:none;}
+	#three {display:none;}
+	#footer {display:none;}
+	hr {display:none;}
+	a:link:after, a:visited:after { content:" [" attr(href) "] "; }
+	nav{display: none;}
+}
+
 /* Mozilla based browsers */
 ::-moz-selection {
        background-color: #F4936E;
