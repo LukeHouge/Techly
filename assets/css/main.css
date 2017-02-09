@@ -1,7 +1,3 @@
-#svg {
-	position: absolute;left: 0; right: 0; top: 10px; margin-left: auto; margin-right: auto;
-}
-
 /* css for print view */
 @media print {
 	h3	{ display: block; page-break-before: always; }
