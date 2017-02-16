@@ -151,6 +151,16 @@
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+			<script>$(document).ready(function() {
+    $("#svg").hide(); //hide your div initially
+    var topOftwo = $("#two").offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOftwo) { //scrolled past the other div?
+            $("#svg").show(200); //reached the desired point -- show div
+        }
+    });
+});
+	</script>
 		</div>
 	</body>
 </html>
