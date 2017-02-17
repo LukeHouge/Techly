@@ -2886,6 +2886,14 @@
 		z-index: 10000;
 	}
 
+		#header.alt img {
+		    opacity: 0;
+		}
+		
+		#header img {
+		    opacity: 1;
+		}
+		
 		#header a {
 			font-size: 1em;
 			font-weight: 900;
