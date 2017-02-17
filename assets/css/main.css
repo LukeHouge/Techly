@@ -2186,6 +2186,15 @@
 	.image:hover{
 		opacity: 0.65;
 	}
+	
+	.image #svg {
+		position: absolute;
+		left: 0; 
+		right: 0; 
+		top: 10px; 
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 		.image img {
 			border-radius: 4px;
