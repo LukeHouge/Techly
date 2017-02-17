@@ -2187,14 +2187,6 @@
 		opacity: 0.65;
 	}
 	
-	.image #svg {
-		position: absolute;
-		left: 0; 
-		right: 0; 
-		top: 10px; 
-		margin-left: auto;
-		margin-right: auto;
-	}
 
 		.image img {
 			border-radius: 4px;
@@ -4306,7 +4298,7 @@ element.style {
 				#footer input[type="button"].special:active,
 				#footer button.special:active,
 				#footer .button.special:active {
-					background-color: #ed6d44;
+					background-color: #000000;
 				}
 
 				#footer input[type="submit"].special.icon:before,
