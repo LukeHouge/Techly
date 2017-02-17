@@ -3784,7 +3784,7 @@
 					.wrapper.style1 input[type="button"].special:active,
 					.wrapper.style1 button.special:active,
 					.wrapper.style1 .button.special:active {
-						background-color: #e83636;
+						background-color: #6f7272;
 					}
 
 					.wrapper.style1 input[type="submit"].special.icon:before,
@@ -4289,7 +4289,7 @@ element.style {
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: #455A64;
+					background-color: #212121;
 					color: #ffffff !important;
 				}
 
@@ -4298,7 +4298,7 @@ element.style {
 				#footer input[type="button"].special:active,
 				#footer button.special:active,
 				#footer .button.special:active {
-					background-color: #000000;
+					background-color: #455A64;
 				}
 
 				#footer input[type="submit"].special.icon:before,
