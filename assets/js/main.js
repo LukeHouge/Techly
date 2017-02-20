@@ -10,7 +10,7 @@
 
 	$(function() {
 
-		var	$window = $(window),
+	var	$window = $(window),
 			$body = $('body');
 
 		// Disable animations/transitions until the page has loaded.
