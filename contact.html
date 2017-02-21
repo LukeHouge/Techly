@@ -78,6 +78,7 @@
 								<form action="https://formspree.io/contact@techlybuilds.com" method="POST">
 									<input type="hidden" name="_next" value="thanks.html">
 									<input type="hidden" name="_subject" value="Techly Builds Submission" />
+                                <input type="text" name="_gotcha" style="display:none" />
 									<div class="field first half">
 								    	<span class="input"></span>
 								    	<label class="red" for="name">Name</label>
@@ -93,11 +94,6 @@
 										<textarea id="message" name="message" placeholder=" " rows="5" required></textarea>
 										<br>
 									</div>
-									<div class="g-recaptcha" data-sitekey="6LdkahYUAAAAABmhU_tQJoXbfMwMIf-pQMsG7N49"></div>
-									<span><script>
-if(isset($recaptchaErrors[0]))
-echo $recaptchaErrors[0];</script></span>
-									<br>
 									<div class="field first half">
 								    	<button type="submit" value="Submit" title="Submit form" class="button"><span>Submit</span></button>
 									</div>
@@ -123,26 +119,6 @@ echo $recaptchaErrors[0];</script></span>
 
 		  <!-- checks if browser supports HTML5 attributes for input fields -->
 		  <script src="assets2/js/modernizr.min.js"></script>
-		  <script src='https://www.google.com/recaptcha/api.js'></script>
-		  <script>
-			   
-$SITEKEY = '6LdkahYUAAAAABmhU_tQJoXbfMwMIf-pQMsG7N49';
-$SECRET = '6LdkahYUAAAAAPEykgxaTO3mXJnsX7MTv59tfw0L'
- 
-$RECAPTCHA = NEW \RECAPTCHA\RECAPTCHA($SECRET);
- 
-$GRECAPTCHARESPONSE = $_POST['G-RECAPTCHA-RESPONSE']; //GOOGLE CAPTCHA POST DATA
-$REMOTEIP = $_SERVER['REMOTE_ADDR']; //TO GET USER'S IP
- 
-$RECAPTCHAERRORS = ''; // BLANK VARIBLE TO STORE ERROR
- 
-$RESP = $RECAPTCHA->VERIFY($GRECAPTCHARESPONSE, $REMOTEIP); //METHOD TO VERIFY CAPTCHA
-IF ($RESP->ISSUCCESS()) {
-   // SEND MAIL OR INSERT IN DB OR DO WHATVER YOU WISH TO
-} ELSE {
-   $RECAPTCHAERRORS = $RESP->GETERRORCODES(); // SET THE ERROR IN VARIBLE
-}
-</script>
 		  <script>
 		    // for form validation
 		    var unsupportedBrowsers = false;
