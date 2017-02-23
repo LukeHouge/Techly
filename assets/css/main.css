@@ -2885,6 +2885,8 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+					transition: all .3s ease-in-out 0s;
+
 	}
 
 		#header.alt img {
@@ -2954,10 +2956,13 @@
 			background-color: transparent;
 			border-bottom-color: transparent;
 			color: #ffffff;
+			transition: all .3s ease-in-out 0s;
+
 		}
 
 			#header.alt nav ul li a[href="#menu"]:before {
 				background-image: url("images/menu-alt.svg");
+				size:500%;
 			}
 
 		#header.with-banner + #banner {
