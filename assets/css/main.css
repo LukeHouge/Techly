@@ -2890,17 +2890,7 @@
 
 		#header.alt img {
 		    opacity: 0;
-		    padding-top: 0px;	
-   -webkit-transition: all 100ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-   -moz-transition: all 100ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-     -o-transition: all 100ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-        transition: all 100ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
-
--webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-   -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-     -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
-        transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
-
+		    
 		}
 		
 		#header img {
@@ -2970,8 +2960,18 @@
 							position: absolute;
 							right: 1.5em;
 							text-align: center;
-							top: 0;
+							top: 0px;
 							width: 1em;
+							-webkit-transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */	
+							
 						}
 
 		#header.alt {
@@ -3003,8 +3003,19 @@
 			
 			#header.alt nav ul li a[href="#menu"]:before {
 				background-image: url("images/menu-alt.svg");
-				size:500%;
+				width: .7em;
+				top:7px;
+				-webkit-transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition: all 500ms cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */
+
+-webkit-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+   -moz-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+     -o-transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); 
+        transition-timing-function: cubic-bezier(0.250, 0.100, 0.250, 1.000); /* ease (default) */	
 			}
+
 
 		#header.with-banner + #banner {
 			margin-top: -3.5em;
@@ -3029,6 +3040,7 @@
 						#header nav ul li a[href="#menu"]:before {
 							right: 1em;
 						}
+
 
 		}
 
