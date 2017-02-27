@@ -2885,16 +2885,21 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
-					transition: all .3s ease-in-out 0s;
-
+			transition: all .3s ease-in-out 0s;
+	
+ -		
 	}
 
 		#header.alt img {
 		    opacity: 0;
+		    transition: all .3s ease-in-out 0s;
+
 		}
 		
 		#header img {
 		    opacity: 1;
+			transition: all .3s ease-in-out 0s;
+
 		}
 		
 		#header a {
@@ -2911,6 +2916,8 @@
 			display: block;
 			height: inherit;
 			line-height: inherit;
+			transition: all .3s ease-in-out 0s;
+
 		}
 
 			#header .logo span {
