@@ -1,7 +1,3 @@
-#svg {
-	position: absolute;left: 0; right: 0; top: 10px; margin-left: auto; margin-right: auto;
-}
-
 /* css for print view */
 @media print {
 	h3	{ display: block; page-break-before: always; }
@@ -2190,6 +2186,7 @@
 	.image:hover{
 		opacity: 0.65;
 	}
+	
 
 		.image img {
 			border-radius: 4px;
@@ -2888,8 +2885,23 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+			transition: all .3s ease-in-out 0s;
+	
+ -		
 	}
 
+		#header.alt img {
+		    opacity: 0;
+		    transition: all .3s ease-in-out 0s;
+
+		}
+		
+		#header img {
+		    opacity: 1;
+			transition: all .3s ease-in-out 0s;
+
+		}
+		
 		#header a {
 			font-size: 1em;
 			font-weight: 900;
@@ -2904,6 +2916,8 @@
 			display: block;
 			height: inherit;
 			line-height: inherit;
+			transition: all .3s ease-in-out 0s;
+
 		}
 
 			#header .logo span {
@@ -2949,10 +2963,13 @@
 			background-color: transparent;
 			border-bottom-color: transparent;
 			color: #ffffff;
+			transition: all .3s ease-in-out 0s;
+
 		}
 
 			#header.alt nav ul li a[href="#menu"]:before {
 				background-image: url("images/menu-alt.svg");
+				size:500%;
 			}
 
 		#header.with-banner + #banner {
@@ -3779,7 +3796,7 @@
 					.wrapper.style1 input[type="button"].special:active,
 					.wrapper.style1 button.special:active,
 					.wrapper.style1 .button.special:active {
-						background-color: #e83636;
+						background-color: #6f7272;
 					}
 
 					.wrapper.style1 input[type="submit"].special.icon:before,
@@ -4284,7 +4301,7 @@ element.style {
 				#footer input[type="button"].special:hover,
 				#footer button.special:hover,
 				#footer .button.special:hover {
-					background-color: #455A64;
+					background-color: #212121;
 					color: #ffffff !important;
 				}
 
@@ -4293,7 +4310,7 @@ element.style {
 				#footer input[type="button"].special:active,
 				#footer button.special:active,
 				#footer .button.special:active {
-					background-color: #ed6d44;
+					background-color: #455A64;
 				}
 
 				#footer input[type="submit"].special.icon:before,
