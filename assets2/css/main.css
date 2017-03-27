@@ -1179,7 +1179,9 @@
 
 		}
 
+
 /* Panel */
+
 
 	.panel {
 		display: -moz-flex;
@@ -1215,6 +1217,11 @@
 			min-height: 50em;
 			width: 50%;
 			z-index: 1;
+			
+			@media screen and (max-width: 1100px) {
+				display:none;
+			}
+				
 		}
 
 			.panel > .image img {
@@ -1225,6 +1232,7 @@
 				object-position: center;
 				width: 100%;
 			}
+	
 
 		.panel > .content {
 			display: -moz-flex;
@@ -1340,8 +1348,12 @@
 
 		}
 
-		@media screen and (max-width: 980px) {
-
+		
+		
+		@media screen and (max-width: 1100px) {
+			
+			
+		
 			.panel {
 				-moz-flex-direction: column;
 				-webkit-flex-direction: column;
@@ -1352,7 +1364,13 @@
 				.panel > .image {
 					min-height: 60vh;
 					width: 100%;
+
 				}
+				
+				/* make show when less that 1100px it shows the wide image and hides the tall one */
+
+			
+
 
 				.panel > .content {
 					display: block;
