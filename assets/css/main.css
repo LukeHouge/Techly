@@ -3492,7 +3492,7 @@
 			z-index: 1;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 736px) {
 
 			#banner video {
 				display: none;
