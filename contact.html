@@ -88,7 +88,8 @@
 									<div class="field half">
 									    <span class="input"></span>
 									    <label class="red" for="email">Email</label>
-									    <input id="email" type="email" name="email" required />
+									    <input required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]$" 
+ id="email" type="email" name="email" title="Format: Xx@Xx.Xx" required />
 									</div>
 									<div class="field">
 									    <label class="red"  for="message">Message</label>
