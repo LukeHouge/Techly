@@ -172,7 +172,7 @@
 						.addClass('alt');
 
 					$banner.scrollex({
-						mode: 'top',
+						mode: 'middle',
 						top: '-100vh',
 						bottom: 10,
 						enter: function() { $header.addClass('alt'); },
