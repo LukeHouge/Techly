@@ -4184,7 +4184,7 @@ element.style {
 }
 #toTop {
     background-color:dimgray;
-    border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 4px 4px;
     bottom: 10px;
     color: #fff;
     display: none;
@@ -4194,7 +4194,7 @@ element.style {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    width: 64px;
+    width: 54px;
     opacity: .9;
     z-index: 10000;
     transition: all .2s ease-in-out 0s;
