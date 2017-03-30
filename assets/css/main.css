@@ -4188,13 +4188,13 @@ element.style {
     bottom: 10px;
     color: #fff;
     display: none;
-    height: 35px;
+    height: 36px;
     position: fixed;
     right: 15px;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    width: 54px;
+    width: 50px;
     opacity: .9;
     z-index: 10000;
     transition: all .2s ease-in-out 0s;
