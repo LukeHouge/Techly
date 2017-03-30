@@ -1,6 +1,6 @@
 # Techly
 
-Techly is a website web deisgned for BPA Website Design Project. Created by:
+Techly is a website designed for BPA Website Design Project. Created by:
 
 - Luke
 - Max
